@@ -36,6 +36,6 @@ console.log('result ', result);
     }
   });
 
-app.listen(8080, function () {
+app.listen(process.env.PORT, function () {
   console.log("Server is listening on port 8080");
 });
